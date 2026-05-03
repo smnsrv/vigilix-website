@@ -5,11 +5,16 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start"
+    "start": "next start",
+    "lint": "next lint",
+    "deploy": "next build && touch out/.nojekyll && gh-pages -d out"
   },
   "dependencies": {
     "next": "16.2.4",
     "react": "19.2.4",
     "react-dom": "19.2.4"
+  },
+  "devDependencies": {
+    "gh-pages": "^6.3.0"
   }
 }
