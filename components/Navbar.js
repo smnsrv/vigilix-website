@@ -99,8 +99,8 @@ export default function Navbar() {
         </a>
 
         <ul style={linksStyle} className="nav-links-desktop">
-          <li><a href="#features" style={linkStyle} onClick={(e) => smoothScroll(e, '#features')}>{t('nav_features')}</a></li>
           <li><a href="#how-it-works" style={linkStyle} onClick={(e) => smoothScroll(e, '#how-it-works')}>{t('nav_how')}</a></li>
+          <li><a href="#features" style={linkStyle} onClick={(e) => smoothScroll(e, '#features')}>{t('nav_features')}</a></li>
           <li><a href="#pricing" style={linkStyle} onClick={(e) => smoothScroll(e, '#pricing')}>{t('nav_pricing')}</a></li>
         </ul>
 
